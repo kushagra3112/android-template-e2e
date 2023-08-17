@@ -74,6 +74,14 @@ dependencies {
     testImplementation(Dependencies.Test.kotlinTest)
     testImplementation(Dependencies.Test.flowTest)
     testImplementation(Dependencies.Test.mockito)
+    implementation(Dependencies.Test.javaClientAppium)
+    implementation("org.testng:testng:6.14.3")
+    implementation("commons-validator:commons-validator:1.7")
+    implementation("commons-lang:commons-lang:2.6")
+    implementation("com.google.guava:guava:30.1.1-jre")
+    implementation("org.slf4j:slf4j-reload4j:2.0.5")
+    implementation("org.apache.commons:commons-lang3:3.12.0")
+    implementation("commons-io:commons-io:2.11.0")
 
     androidTestImplementation(Dependencies.Compose.uiTest)
 }

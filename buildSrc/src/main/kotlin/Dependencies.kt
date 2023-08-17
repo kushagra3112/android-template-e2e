@@ -116,5 +116,6 @@ object Dependencies {
         const val flowTest = "app.cash.turbine:turbine:${Versions.turbine}"
         const val kotlinTest = "org.jetbrains.kotlin:kotlin-test:${Versions.kotlin}"
         const val mockito = "org.mockito.kotlin:mockito-kotlin:3.2.0"
+        const val javaClientAppium = "io.appium:java-client:8.3.0"
     }
 }
